@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "swiper": "^9.3.1",
+    "vue": "^3.2.13",
+    "vuetify": "^3.2.3"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -17,7 +19,6 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
-    "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3"
   },
   "eslintConfig": {
@@ -32,7 +33,9 @@
     "parserOptions": {
       "parser": "@babel/eslint-parser"
     },
-    "rules": {}
+    "rules": {
+      "vue/multi-word-component-names": 0
+    }
   },
   "browserslist": [
     "> 1%",
